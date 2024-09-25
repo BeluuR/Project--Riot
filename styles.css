@@ -1,0 +1,616 @@
+* {
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+	font-family: 'Lexend', sans-serif;
+}
+
+
+
+
+@media (min-width: 400px) {
+	.header__nav {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+    	align-items: center;
+		justify-content: space-around;
+		background-color: rgba(0, 0, 0, 0.938);
+    	
+	}
+
+	.header__nav-link-icon-riot {
+		width: auto;
+    	height: 25px;
+    	margin: 0px;
+    	padding: 0 5px;
+    }
+
+    .header__nav-link-icon {
+    	width: auto;
+    	height: 80px;
+    }
+
+	.header__icon {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		justify-content: space-around;
+		
+	}
+
+    .header__icon-languages {
+        width: auto;
+        height: 20px;
+        
+    }
+
+	.header__icon-menu {
+		width: auto;
+		height: 20px;
+	}
+
+	.main__container-img {
+		background-image: url("../Images/masters-madrid-1.jpg");
+    	height: 500px;
+    	width: 100%;
+    	background-position: center;
+    	display: flex;
+    	align-items: center;
+		flex-direction: column;
+		justify-content: end;
+
+	}
+
+	.main__img {
+		width: auto;
+		height: 170px;
+		padding-bottom: 20px;
+
+		
+	}
+
+	.main__title-1 {
+		color: #e7e6e3;
+    	font-size: 25px;
+    	font-weight: bold;
+    	text-align: center;
+		margin: 0 30px;
+		
+	}
+
+	
+
+	
+	.header__nav-link {
+		display: none;
+	}
+
+	.header__buttons {
+		display: none;
+	}
+
+	.header__button-buscar {
+		display: none;
+	}
+
+	.header__login {
+		display: none;
+	}
+
+	.main__text {
+		display: none;
+	}
+
+	.main__container-button {
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 30px;
+		margin-bottom: 50px;
+	
+	}
+	
+	.main__container-button :hover {
+		background: rgb(246,115,149);
+		background: linear-gradient(90deg, rgba(246,115,149,1) 0%, rgba(247,135,135,1) 50%, rgba(252,201,192,0.9752275910364145) 100%);
+		box-shadow: 3px 3px 8px rgba(252,201,192,0.9752275910364145);
+		width: 160px;
+		height: 50px;
+		transition: 0.5s;
+	}
+	
+	
+	.main__button {
+		
+		border-radius: 20px;
+		border: transparent;
+		width: 160px;
+		height: 50px;
+		background: rgb(251,80,123);
+		background: linear-gradient(90deg, rgba(251,80,123,1) 0%, rgba(251,97,97,1) 50%, rgba(246,159,144,1) 100%);
+		color: #e7e6e3;
+		font-size: 20px;
+		font-weight: bold;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding-left: 20px;
+		margin-left: 20px;
+		cursor: pointer;
+	}
+	
+	
+	
+
+}
+
+
+@media (min-width: 1280px) {
+	.header {
+		background-color: rgba(0, 0, 0, 0.938);
+		display: flex;
+		width: 100%;
+		margin-top: 0%;
+		margin-left: 0%;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		 
+	}
+
+	.header__nav {
+		display: flex;
+    	align-items: center;
+    	margin: 0 15px;
+		background-color: rgba(0, 0, 0, 0.938);
+    	
+	}
+
+	.header__nav-link-icon-riot {
+		width: auto;
+    	height: 25px;
+    	padding-left: 15px;
+    }
+
+	.header__nav-link-icon-riot :hover{
+		background: url(../Icon/riot-games-red.png);
+		width: auto;
+		height: 25px;
+		margin: 20px;
+		transition: 0.5;
+	}
+
+    .header__nav-link-icon {
+    	width: auto;
+    	height: 55px;
+    	padding: 0 15px;
+    }
+
+	.header__icon {
+		display: flex;
+    	align-items: center;
+    	margin: 0 15px;
+    	padding: 0 25px 0 0;
+		
+	}
+
+    .header__icon-languages {
+        width: auto;
+    	height:20px;
+        
+    }
+
+	.header__icon-menu {
+		display: none;
+	}
+
+	.header__nav-link {
+		font-size: small;
+    	font-style: normal;
+    	font-weight: bold;
+    	color: #e7e6e3;
+    	text-decoration: none;
+    	padding: 10px;
+    	display: inline-block;
+    	line-height: 40px;
+    	margin: 20px auto;
+    	border-radius: 15px;
+    	text-transform: uppercase;
+	}
+
+	.header__nav-link :hover {
+		border-radius: 15px;
+		width: 20px;
+		height: auto;
+		border-color: #292928;
+		transition: 0.5;
+	}
+
+	.header__buttons {
+		width: 150px;
+    	height: 30px;
+    	background: transparent;
+    	border-top-left-radius: 20px 20px;
+    	border-top-right-radius: 20px 20px;
+    	border-bottom-left-radius: 20px 20px;
+    	border-bottom-right-radius: 20px 20px;
+    	margin: 0 15px;
+		display: block;
+	}
+
+	.header__button-buscar {
+		width: 155px;
+    	height: 35px;
+    	border: solid 1px #e7e6e3;
+    	background: transparent;
+    	border-top-left-radius: 20px 20px;
+    	border-top-right-radius: 20px 20px;
+    	border-bottom-left-radius: 20px 20px;
+    	border-bottom-right-radius: 20px 20px;
+    	padding: 0 10px;
+    	color: white;
+    	font-weight: bold;
+    	font-size: 12px;
+    	text-align: left;
+		display: block;
+	}
+
+	input::placeholder {
+		width: 150px;
+		height: 30px;
+		background: transparent;
+		
+	}
+
+	.header__login {
+		border-top-left-radius: 20px 20px;
+    	border-top-right-radius: 20px 20px;
+    	border-bottom-left-radius: 20px 20px;
+    	border-bottom-right-radius: 20px 20px;
+    	width: 155px;
+    	height: 35px;
+    	border: transparent;
+    	background-color: #d1363a;
+    	color: black;
+    	font-weight: medium;
+    	font-size: 12px;
+    	cursor: pointer;
+		display: block;
+	}
+
+	.main {
+		background: rgb(106,49,45);
+		background: radial-gradient(circle, rgba(106,49,45,0.9472163865546218) 0%, rgba(38,17,17,1) 42%, rgba(0,0,0,1) 100%);
+	}
+
+
+
+
+	.main__container-img {
+		background-image: url("../Images/masters-madrid-1.jpg");
+    	height: 1080px;
+    	width: 100%;
+    	background-position: center;
+    	display: flex;
+    	align-items: start;
+		justify-content: start;
+		
+
+	}
+
+	
+
+	.main__container-text {
+		width: 690px;
+		margin-top: 10px;
+
+	}
+
+	.main__img {
+		width: 500px;
+    	height: auto;
+    	margin: 30px;
+		padding-left: 150px;
+
+		
+	}
+
+	.main__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		
+		
+	}
+
+	.main__title-1 {
+		color: #e7e6e3;
+    	font-size: 35px;
+    	font-weight: bolder;
+    	margin-left: 10px;
+    	padding-top: 20px;
+		padding-left: 100px;
+    	text-align: left;
+		
+	}
+
+	.main__text {
+		color: #e7e6e3;
+    	font-size: 20px;
+    	font-weight: normal;
+    	margin-left: 80px;
+    	padding-top: 20px;
+    	text-align: center;
+		display: block;
+	}
+
+	.main__container-button {
+		margin-left: 10px;
+    	padding-top: 20px;
+		
+	
+	}
+	
+	.main__container-button :hover {
+		background: rgb(246,115,149);
+    	background: linear-gradient(90deg, rgba(246,115,149,1) 0%, rgba(247,135,135,1) 50%, rgba(252,201,192,0.9752275910364145) 100%);
+    	box-shadow: 3px 3px 8px rgba(252,201,192,0.9752275910364145);
+    	width: 230px;
+    	height: 75px;
+    	transition: 0.5s;
+	}
+	
+	
+	.main__button {
+		
+		border-radius: 20px;
+    	border: transparent;
+    	width: 230px;
+    	height: 75px;
+    	background: rgb(251,80,123);
+    	background: linear-gradient(90deg, rgba(251,80,123,1) 0%, rgba(251,97,97,1) 50%, rgba(246,159,144,1) 100%);
+    	color: #e7e6e3;
+    	font-size: 30px;
+    	font-weight: bold;
+    	text-align: right;
+    	padding-right: 20px;
+    	cursor: pointer;
+		
+	}
+	
+
+}
+
+
+
+
+img {
+	width: 25px;
+}
+
+.news__container {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.news__container-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.section__news {
+	background: rgb(106, 49, 45);
+	background: radial-gradient(
+		circle,
+		rgba(106, 49, 45, 0.9472163865546218) 0%,
+		rgba(38, 17, 17, 1) 42%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+
+.news {
+	display: flex;
+	flex-direction: column;
+}
+
+.news__container-title {
+	color: #e7e6e3;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.container__img-1 {
+	width: 100%;
+	height: auto;
+}
+
+/*
+.container__news-subtitle {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+*/
+
+.container__news-subtitle {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container__title-3 {
+	color: #e7e6e3;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.container__link-1 {
+	color: #929291;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.container__button {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.container__title-4 {
+	color: #e7e6e3;
+	font-size: medium;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.container__img-icon {
+	width: 25px;
+}
+
+.container__link-2 {
+	color: #929291;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.container__img-2 {
+	display: flex;
+	object-fit: cover;
+}
+
+.container__button-right-1 {
+	border-radius: 10px;
+	width: 130px;
+	height: 30px;
+	margin: 20px;
+	background-color: #292928;
+	border-color: transparent;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: #e7e6e3;
+	cursor: pointer;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.container__button {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	align-items: center;
+}
+
+.container__cards {
+	background-color: #292928;
+	border-radius: 15px;
+	width: 100%;
+	margin: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.container__img-2 {
+	width: 200px;
+}
+
+@media (min-width: 992px) {
+	.container__button {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.container__cards {
+		background-color: #292928;
+		border-radius: 15px;
+		width: 45%;
+		margin: 25px 0;
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media (min-width: 1280px) {
+	.news__container-content {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.container__button {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+		
+	}
+	.container__cards {
+		width: 90%;
+		margin: 25px 0;
+		display: flex;
+		align-items: center;
+		background-color: #292928;
+		border-radius: 15px;
+	}
+
+	.news__container-title {
+		color: #e7e6e3;
+		font-weight: bolder;
+		font-size: 60px;
+	}
+
+	.news__container {
+		display: flex;
+		justify-content: start;
+		padding: 50px;
+		margin: 10px;
+	}
+
+	.container__news-img {
+		display: flex;
+		justify-content: start;
+		padding-left: 50px;
+		width: 1000px;
+		height: auto;
+	}
+
+	.container__news-subtitle {
+		padding-left: 50px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.container__title-3 {
+		color: #e7e6e3;
+		font-size: 27px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.container__link-1 {
+		color: #929291;
+		font-size: 15px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.container__img-icon {
+		width: 40px;
+		height: auto;
+	}
+}
